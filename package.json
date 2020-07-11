@@ -1,0 +1,35 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "my first api",
+  "main": "index.js",
+  "engines": {
+    "node": "v12.16.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production MONGODB_USER=ahmed MONGODB_PASSWORD=fmy2042019 MONGODB_DEFUALT_DATABASE=messages JWT_SECRET=somesupersecretsecret node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "author": "ahmed taha",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "express-validator": "^6.6.0",
+    "graphql": "^14.7.0",
+    "helmet": "^3.23.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.21",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "socket.io": "^2.3.0",
+    "validator": "^13.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

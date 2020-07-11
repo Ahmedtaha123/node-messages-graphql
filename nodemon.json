@@ -1,0 +1,8 @@
+{
+    "env": {
+        "MONGODB_USER": "ahmed",
+        "MONGODB_PASSWORD": "fmy2042019",
+        "MONGODB_DEFUALT_DATABASE": "messages",
+        "JWT_SECRET": "somesupersecretsecret"
+    }
+}
